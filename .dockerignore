@@ -41,7 +41,7 @@ htmlcov/
 # IDE
 .vscode/
 .idea/
-.claude/
+.Likith/
 
 # OS
 .DS_Store

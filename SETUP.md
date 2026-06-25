@@ -10,7 +10,7 @@ Run the full demo locally on **Windows, macOS, or Linux** using a Python 3.11 vi
 |---|---|---|
 | Python | **3.11.x** | PySpark 3.5 does not work with Python 3.12+ |
 | Java JDK | 11 or 17 | Required by Apache Spark |
-| AWS CLI | any | For the Bedrock (Claude) section |
+| AWS CLI | any | For the Bedrock (Likith) section |
 | Docker Desktop | any | Optional — for the Docker deploy section |
 
 ### Install Python 3.11
@@ -57,7 +57,7 @@ New-Item -ItemType Directory -Force -Path C:\hadoop\bin
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/varunchach/RAG_at_scale.git
+git clone https://github.com/LIKITH-3012-MAC/RAG_at_scale.git
 cd RAG_at_scale
 ```
 

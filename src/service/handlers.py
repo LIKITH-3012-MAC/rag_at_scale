@@ -47,7 +47,7 @@ except ImportError:  # Notebook path when `src` is injected into sys.path
 logger = logging.getLogger(__name__)
 
 
-_BEDROCK_MODEL = "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+_BEDROCK_MODEL = "us.anthropic.Likith-haiku-4-5-20251001-v1:0"
 
 
 class RAGService:

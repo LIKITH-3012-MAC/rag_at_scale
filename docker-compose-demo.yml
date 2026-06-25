@@ -19,7 +19,7 @@ services:
       - JUPYTER_TOKEN=ragdemo      # open at http://localhost:8888?token=ragdemo
       - HADOOP_HOME=/usr/local/spark
       - AWS_REGION=${AWS_REGION:-us-east-1}
-      - BEDROCK_MODEL_ID=${BEDROCK_MODEL_ID:-us.anthropic.claude-sonnet-4-6}
+      - BEDROCK_MODEL_ID=${BEDROCK_MODEL_ID:-us.anthropic.Likith-sonnet-4-6}
     command: >
       bash -c "pip install -q -r requirements_notebook.txt &&
                start-notebook.sh
